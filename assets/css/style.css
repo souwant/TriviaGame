@@ -20,20 +20,8 @@ background-color: burlywood
 
 }
 
-.buttons {
-    margin-top: 30px;
-}
 
-#btn1, #btn2, #btn3, #btn4 {
-    background-color: gray;
-    width: 250px;
-    font-size: 20px;
-    color: white;
-    border: 1px solid #cbcfd6;
-    border-radius: 60 px;
-    margin: 10px 50px 10px 0px;
-    padding: 10px 10px;
-}
+
 
 #status {
     color: darkgray;
