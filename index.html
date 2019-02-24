@@ -9,35 +9,41 @@
 </head>
 <body>
     <div class="grid">
-        <h1>Tivia Game</h1>
-        <hr style="margin-bottom: 15px">
+        <h2>Trivia Game</h2>
+        
+        <div id="startClock"></div>
 
         <h3 id="q1">Where do the Trail Blazers Play?</h3>
-        <button type="button" class="btn btn-success">Providence Park</button>
-        <button type="button" class="btn btn-success">Key Arena</button>
-        <button type="button" class="btn btn-success">Colesium</button>
-        <button type="button" class="btn btn-success">Moda Center</button>
+        <form>
+            <input type="radio" name="sites" value="moda">Moda Center<br>
+            <input type="radio" name="sites" value="providence">Providence Park<br>
+            <input type="radio" name="sites" value="garden">The Garden<br>
+            <input type="radio" name="sites" value="other">Other
+        </form>
 
         <h3 id="q2">Who is the Trail Blazers Mascot?</h3>
 
-        <button type="button" class="btn btn-success">Bumble Bee</button>
-        <button type="button" class="btn btn-success">Blaze</button>
-        <button type="button" class="btn btn-success">Garfield</button>
-        <button type="button" class="btn btn-success">Voltron</button>
+        <form>
+            <input type="radio" name="character" value="blaze">Blaze<br>
+            <input type="radio" name="character" value="BumbleBee">Bumble Bee<br>
+            <input type="radio" name="character" value="garfield">Garfield<br>
+            <input type="radio" name="character" value="other">Other
+        </form>
 
         <h3 id="q3">Who is the Blazers Head Coach?</h3>
         
-        <button type="button" class="btn btn-success">Terry Stotts</button>
-        <button type="button" class="btn btn-success">Shaq</button>
-        <button type="button" class="btn btn-success">Michael Jordan</button>
-        <button type="button" class="btn btn-success">Prince</button>
+        <form>
+            <input type="radio" name="coach" value="stotts">Terry Stotts<br>
+            <input type="radio" name="coach" value="jordan">Michael Jordan<br>
+            <input type="radio" name="coach" value="palza">Eric Plaza<br>
+            <input type="radio" name="coach" value="other">Other
+        </form> 
 
-        <h3 id="q4">Who is the Trail Blazers All Star Point Guard?</h3>
-
-        <button type="button" class="btn btn-success">Damian Lillard</button>
-        <button type="button" class="btn btn-success">Hoang Le</button>
-        <button type="button" class="btn btn-success">Eric Plaza</button>
-        <button type="button" class="btn btn-success">Zion Williamson</button>
+        <button type="button" id="btnGetValue">Submit</button>
+        <p></p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js">    </script>
+        <script src='assets/javascript/app.js'></script>
+    </div>
 
         <footer>
             
@@ -48,7 +54,7 @@
 
     </div>
 
-    
+
 </body>
 </html>
 
